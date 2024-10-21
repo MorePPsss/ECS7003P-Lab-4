@@ -5,8 +5,5 @@ using UnityEngine;
 
 public class boundary : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(other.gameObject);
-    }
+    private void OnTriggerEnter(Collider other) => Destroy(other.gameObject);
 }
